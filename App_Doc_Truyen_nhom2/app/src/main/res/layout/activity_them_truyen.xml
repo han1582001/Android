@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+android:background="@color/white"
+    tools:context=".ThemTruyenActivity"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbarthemtruyen"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="@color/xanhla"
+    app:title="Thêm Truyện Mới"
+    app:titleTextColor="@color/white"
+
+    />
+    <LinearLayout
+        android:layout_below="@+id/toolbarthemtruyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Tên Truyện"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    />
+        <EditText
+            android:id="@+id/edttentruyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Nhập Tên Truyện"
+            android:textColor="@color/xanhla"
+            android:textSize="20dp"
+            android:background="@drawable/stylebtnmorong"
+            android:textColorHint="#706E6E"
+android:singleLine="true"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tác Giả"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/edttacgia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edttentruyen"
+            android:layout_marginBottom="10dp"
+            android:hint="Nhập Tên Tác Giả"
+            android:textColor="@color/black"
+            android:background="@drawable/stylebtnmorong"
+            android:singleLine="true"
+            android:textColorHint="#706E6E"
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thể Loại"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <Spinner
+            android:id="@+id/spinTheloai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/stylebtnmorong"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tóm tắt, Mô Tả"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/edtMota"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="Nhập Mô Tả Hoặc Tóm Tắt Truyện"
+            android:background="@drawable/stylebtnmorong"
+            android:gravity="top"
+            android:textColorHint="#706E6E"
+android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/txtChonAnh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtMota"
+            android:text="Chọn Ảnh"
+            android:textAlignment="center"
+
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <ImageButton
+            android:id="@+id/btnChonAnh"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btnimgicon"
+            android:scaleType="fitCenter"
+
+            />
+        <Button
+            android:id="@+id/btnthem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm Truyện"
+            android:backgroundTint="@color/xanhla"
+            />
+        <Button
+            android:id="@+id/btnhuy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hủy và quay lại"
+
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

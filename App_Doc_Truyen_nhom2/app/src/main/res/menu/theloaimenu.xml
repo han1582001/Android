@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tatca"
+        android:title="Tất Cả"
+        />
+    <item android:id="@+id/tienhiep"
+        android:title="Tiên Hiệp"
+        />
+    <item android:id="@+id/linhdi"
+        android:title="Linh Dị"
+        />
+    <item android:id="@+id/ngontinh"
+        android:title="Ngôn Tình"
+        />
+    <item android:id="@+id/xuyenkhong"
+        android:title="Xuyên Không"
+        />
+    <item android:id="@+id/lichsu"
+        android:title="Lịch Sử, Cổ Đại"
+
+        />
+    <item android:id="@+id/hethong"
+        android:title="Hệ Thống"
+        />
+    <item android:id="@+id/dothi"
+        android:title="Đô Thị"
+        />
+    <item android:id="@+id/khác"
+        android:title="Khác"
+        />
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:id="@+id/itemdialogchuong"
+    >
+<TextView
+    android:id="@+id/txttitle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:singleLine="true"
+    android:text="Chương 1: Thiên Tài Rơi Rụng"
+    android:textSize="18dp"
+    android:textColor="@color/black"
+    />
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HienThiChuong"
+    android:background="@color/black"
+    android:id="@+id/bacground"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarhienthichuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:translationZ="20dp"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:title="Nhục Hồng Ngải"
+            app:titleTextColor="@color/xanhla" />
+        <TextView
+            android:id="@+id/txttenchuongx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Chương 2: Thiên Tài Vẫn Lạc"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            app:layout_scrollFlags="scroll|enterAlways" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <Button
+                android:id="@+id/btnprev"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/xanhla"
+                android:text="Trước" />
+
+            <Button
+                android:id="@+id/btndschuong"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@color/xanhla"
+                android:text="DSC" />
+
+            <Button
+                android:id="@+id/btnnext"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/xanhla"
+                android:text="Sau" />
+
+
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:id="@+id/scroll"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/container">
+
+            <TextView
+                android:id="@+id/txttentruyenx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Đấu Phá Thương Khung"
+                android:textColor="@color/xanhla"
+                android:textSize="21dp"
+                android:textStyle="bold"
+android:visibility="gone"
+                />
+
+
+            <TextView
+                android:id="@+id/txtndchuongx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textAlignment="viewStart"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

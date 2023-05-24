@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FragmentQuanLy"
+    android:orientation="vertical"
+android:background="@color/white"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/frameraw"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:padding="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/containerdangnhap"
+
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="ĐĂNG NHẬP"
+            android:textAlignment="center"
+            android:layout_marginBottom="1dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Email"
+            android:background="@drawable/stylebtnupdate"
+            android:id="@+id/txtusername"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="#9E9E9E"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mật Khẩu"
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            />
+        <EditText
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Mật Khẩu"
+            android:background="@drawable/stylebtnupdate"
+            android:id="@+id/txtpassword"
+            android:textColorHint="#9E9E9E"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            />
+        <Button
+            android:id="@+id/btndangnhap"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/xanhduong"
+            android:text="Đăng Nhập"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/btnopendangky"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:textColor="@color/xanhduong"
+            android:layout_gravity="right"
+            android:text="Bạn Chưa Có Tài Khoản? Bấm Để Đăng Ký Ngay"
+            android:textSize="10sp"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/containerdangky"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="TẠO TÀI KHOẢN"
+                android:textAlignment="center"
+                android:layout_marginBottom="1dp"
+                android:textColor="@color/black"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Họ Và Tên"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập tên của bạn"
+                android:background="@drawable/stylebtnmorong"
+                android:id="@+id/txtyourname"
+                android:singleLine="true"
+                android:textColorHint="#9E9E9E"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập Email"
+                android:background="@drawable/stylebtnmorong"
+                android:id="@+id/txtusernamedk"
+                android:singleLine="true"
+                android:textColorHint="#9E9E9E"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tạo Mật Khẩu"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập Mật Khẩu"
+                android:background="@drawable/stylebtnmorong"
+                android:id="@+id/txtpassworddk"
+                android:singleLine="true"
+                android:textColorHint="#9E9E9E"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhập Lại Mật Khẩu"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập Lại Mật Khẩu"
+                android:background="@drawable/stylebtnmorong"
+                android:id="@+id/txtrepassworddk"
+                android:singleLine="true"
+                android:textColorHint="#9E9E9E"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                />
+            <TextView
+                android:id="@+id/txthuongdan"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nhập Mã Xác Nhận:rsssssssssssssssssssssssssssadssssssssssssssssssd"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/maudo"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhập Mã Xác Nhận:"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                >
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Nhập Mã Xác Nhận 1"
+                android:background="@drawable/stylebtnmorong"
+                android:id="@+id/txtmaxacnhan"
+                android:singleLine="true"
+                android:textColorHint="#9E9E9E"
+                android:textColor="@color/black"
+                android:layout_gravity="left"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="10dp"
+                />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Nhập Mã Xác Nhận 2"
+                android:background="@drawable/stylebtnmorong"
+                android:id="@+id/txtmaxacnhan2"
+                android:singleLine="true"
+                android:textColorHint="#9E9E9E"
+                android:textColor="@color/black"
+                android:layout_gravity="right"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="10dp"
+                />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btndangky"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/xanhla"
+                android:text="Đăng Ký"
+                />
+            <TextView
+                android:id="@+id/btngotodangnhap"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/xanhduong"
+                android:text="Đã Có Tài Khoản? Quay Lại Đăng Nhập"
+                android:textSize="10dp"
+                android:textColor="@color/xanhduong"
+                android:layout_gravity="right"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
+
+</LinearLayout>

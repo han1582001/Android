@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragment.DSchuongFragment"
+    android:orientation="vertical"
+    android:gravity="left"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="left"
+    >
+       <RadioGroup
+           android:id="@+id/rdSapxep"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+android:orientation="horizontal"
+           android:gravity="center"
+           >
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/rdSapxepnomal"
+               android:text="Nomal"
+               android:checked="true"
+               android:layout_marginEnd="20dp"
+               android:textColor="@color/black"
+               />
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/rdSapxepmoinhat"
+               android:text="Chương Mới Lên Trước"
+               android:textColor="@color/black"
+               />
+
+       </RadioGroup>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rclDschuong"
+        />
+</LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+</LinearLayout>

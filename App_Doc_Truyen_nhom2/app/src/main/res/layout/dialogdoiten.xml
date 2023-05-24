@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="Sửa Tên"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/txtTen"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/title"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/stylethanhtimkiem"
+        android:hint="Nhập Tên Mới"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTen"
+        android:text="Lưu Thay Đổi"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/xanhla"
+        />
+    <Button
+        android:id="@+id/btnCANCEL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnOK"
+        android:text="Hủy và quay lại"
+        android:backgroundTint="@color/maudo"
+        />
+
+</RelativeLayout>

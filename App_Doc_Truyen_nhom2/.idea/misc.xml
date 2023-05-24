@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/avatar_container.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/background_avatar_truyen.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/backgroundbtnquanly.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/backgroundchuong.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/backgroundxemthem.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/bgrbookshelf.xml" value="0.2203125" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/bgrbsf.xml" value="0.17543859649122806" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/bgritembsf.xml" value="0.1" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/book_avatar.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/book_shape.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/bottomcolor.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/bottomitemchecked.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/btnimgicon.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_back.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1125" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2101851851851852" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_baseline_storage_24.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_baseline_storefront_24.xml" value="0.1125" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_bell_solid.xml" value="0.2203125" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_check_solid.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_check_solid2.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_clipboard_regular.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/ic_trash_solid.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/icon_tusach.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/iconcancel.xml" value="0.2101851851851852" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/iconexpand.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/icontruyenmoi.xml" value="0.2203125" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/iconupdatetruyen.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/newtruyen.xml" value="0.2203125" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/selectedbottom.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/stylebtnmorong.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/stylebtnupdate.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/stylebtnxoa.xml" value="0.2203125" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/drawable/stylethanhtimkiem.xml" value="0.2203125" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/activity_cung_tac_gia.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/activity_detail_truyen.xml" value="0.1" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/activity_hien_thi_chuong.xml" value="0.2" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/activity_quan_ly_truyen.xml" value="0.15534420289855072" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/activity_quanlychuong.xml" value="0.17" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/activity_review_detail.xml" value="0.16" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/activity_sua_truyen.xml" value="0.1453804347826087" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/activity_sua_truyen2.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/activity_tac_gia.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/activity_them_truyen.xml" value="0.14" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/activity_themtruyen2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/book_store_item.xml" value="0.25" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/bottom_menu.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/diaglog_xacnhanxoa.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/dialog_xoatruyen2.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/dialogchuyenchuong.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/dialogdoimadk.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/dialogdoimatkhau.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/dialogdoiten.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/dialogmucluc.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/dialogthemchuong.xml" value="0.16" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/dialogxacnhan.xml" value="0.16757246376811594" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/dialogxacnhanxoatruyen.xml" value="0.1453804347826087" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_allbookstore.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_alltruyen.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_book_store.xml" value="0.15" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_bookshelf.xml" value="0.1" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_d_schuong.xml" value="0.22" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_detail_tinhtrang.xml" value="0.1" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_detail_truyen.xml" value="0.1" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_du_bi.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_fragmentdangnhap.xml" value="0.15534420289855072" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_profile.xml" value="0.19548872180451127" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_quan_ly.xml" value="0.2" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_quan_ly_chuong.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_quan_ly_tai_khoan.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_tai_khoan.xml" value="0.2" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_theo_the_loai.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_tinh_trang.xml" value="0.16" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_truyen_da_doc.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/fragment_truyentheotheloai.xml" value="0.1" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/item_bookshelf.xml" value="0.25" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/item_chuong.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/item_detail_cungtheloai.xml" value="0.1" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/itembookstoredatai.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/itemdialogchuong.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/itemload.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/itemquanlytruyen.xml" value="0.2" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/itemtaikhoan.xml" value="0.25" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/itemtruyendubi.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/quanlychuongitem.xml" value="0.18" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/sa.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/layout/theloaiitem.xml" value="0.22" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/menu/checkedbottommenu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/menu/menudetail.xml" value="0.1675925925925926" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/menu/menuhienthichuong.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/menu/menuprofile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/menu/menuprogile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/menu/theloaimenu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/zedlm/AndroidStudioProjects/App_Doc_Truyen_nhom2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12962962962962962" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.FragmentTheoTheLoai"
+    android:background="@color/white">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:id="@+id/layoutmotatheloai"
+        android:padding="5dp"
+        android:elevation="7dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/motatheloai"
+        android:textSize="9dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:text="adasdasda"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+    <EditText
+        android:id="@+id/txtsearchtutruyen3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/stylethanhtimkiem"
+        android:drawableRight="@drawable/icsearchtusach"
+        android:gravity="center_vertical"
+        android:hint="Nhập Tên Truyện Cần Tìm"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColorHint="#979797"
+        android:textSize="14sp" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listbookstorelayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:paddingTop="80dp"
+        android:paddingBottom="?attr/actionBarSize"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/txtthongbao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Không tìm thấy truyện"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_centerVertical="true"
+        />
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progessbartheotheloai"
+        />
+</RelativeLayout>

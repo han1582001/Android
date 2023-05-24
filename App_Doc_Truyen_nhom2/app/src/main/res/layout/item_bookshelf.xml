@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/itemtusach"
+    android:paddingBottom="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_marginStart="7dp"
+    android:layout_marginEnd="7dp"
+    android:layout_marginTop="7dp"
+    android:layout_marginBottom="7dp"
+    android:elevation="5dp"
+    android:translationZ="10dp"
+   android:outlineSpotShadowColor="@color/black"
+
+    >
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="150dp"
+    android:src="@drawable/bantraitindon"
+    android:scaleType="fitXY"
+    android:id="@+id/imageTruyen"
+    android:layout_marginBottom="5dp"
+    />
+    <TextView
+        android:id="@+id/txttentruyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="Đấu Phá Thương Khung"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/txttientrinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="Chương 1200"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+
+        />
+</LinearLayout>

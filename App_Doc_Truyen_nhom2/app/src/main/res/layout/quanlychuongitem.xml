@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/backgroundchuong"
+    android:paddingLeft="5dp"
+    android:paddingTop="10dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/txtTitlechuong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chương 1:Thiên Tài Vẫn Lạc"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/btnsuachuong"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/stylebtnupdate"
+        android:scaleType="fitXY"
+        android:src="@drawable/iconupdatetruyen"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/btnxoachuong"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/btnsuachuong"
+        android:background="@drawable/stylebtnxoa"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_trash_solid"
+        android:visibility="gone" />
+</RelativeLayout>

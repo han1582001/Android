@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "120044514798",
+    "firebase_url": "https://truyenchu-2b114-default-rtdb.firebaseio.com",
+    "project_id": "truyenchu-2b114",
+    "storage_bucket": "truyenchu-2b114.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120044514798:android:95e3bd5fcd7e8df611b2ff",
+        "android_client_info": {
+          "package_name": "com.example.app_doc_truyen_nhom2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120044514798-do328ggee8aliet9204mi49s5caosue4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_w-ImSOc9CxEjoCHAc-f7TtxPIPVuI2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120044514798-do328ggee8aliet9204mi49s5caosue4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

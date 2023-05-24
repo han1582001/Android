@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_quanlytruyen"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="5dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:elevation="20dp"
+    android:translationZ="5dp"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:outlineAmbientShadowColor="@color/black"
+    >
+
+    <ImageView
+        android:id="@+id/imgtruyen"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/amtrungquy2"
+
+        />
+
+
+    <TextView
+        android:id="@+id/txttentruyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/imgtruyen"
+        android:text="Cực Phẩm Gia Đinh"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txttacgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttentruyen"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/imgtruyen"
+        android:text="Tác giả:"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txttacgia2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttentruyen"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/txttacgia"
+        android:text="Vũ Nham"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txttheloai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttentruyen"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/txttacgia2"
+        android:text="Thể Loại:"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txttheloai2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttentruyen"
+
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/txttheloai"
+        android:text="Cổ Đại"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtreview"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/txttacgia"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/imgtruyen"
+        android:text="asdasdasdasdascasdasdadasaasdasdasdasdasdasdasdasdadadasddasasdasdasd..."
+        android:textColor="@color/black"
+        android:textSize="8sp"
+        android:lineHeight="10dp"
+        android:textStyle="italic"
+
+        />
+
+    <TextView
+        android:id="@+id/txttinhtrang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtreview"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/imgtruyen"
+        android:text="Đã Full"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtsochuong2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtreview"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/txttinhtrang"
+        android:text="60"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtsochuong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtreview"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/txtsochuong2"
+        android:text="Chương"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/btnupdatetruyen"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnremove"
+        android:background="@drawable/stylebtnupdate"
+        android:scaleType="fitCenter"
+        android:src="@drawable/iconupdatetruyen"
+        android:layout_marginStart="5dp"
+
+        />
+
+    <ImageButton
+        android:id="@+id/btnremove"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toLeftOf="@+id/btnexspand"
+        android:background="@drawable/stylebtnxoa"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_trash_solid" />
+
+    <ImageButton
+        android:id="@+id/btnexspand"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/stylebtnmorong"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_clipboard_regular" />
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_check_solid"
+        android:scaleType="fitXY"
+        android:background="@drawable/stylebtnmorong"
+        android:layout_toLeftOf="@+id/btnupdatetruyen"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/checkfull"
+        />
+    <ImageButton
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:src="@drawable/ic_check_solid2"
+    android:scaleType="fitXY"
+    android:background="@drawable/stylebtnupdate"
+    android:layout_toLeftOf="@+id/btnupdatetruyen"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/checkdangra"
+    />
+</RelativeLayout>
+

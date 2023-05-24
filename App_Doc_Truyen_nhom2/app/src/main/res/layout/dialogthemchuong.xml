@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:background="@drawable/stylebtnmorong"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Nhập Tên Chương"
+        android:textColor="@color/xanhla"
+        />
+
+    <EditText
+        android:id="@+id/txtTenChuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/stylebtnmorong"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTenChuong"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Nhập Nội Dung Chương"
+        android:textColor="@color/xanhduong"
+        />
+
+    <EditText
+        android:id="@+id/txtndChuong"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/txt2"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/stylebtnupdate"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:gravity="top"
+        />
+
+    <ImageButton
+        android:id="@+id/btnOK"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtndChuong"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/stylebtnmorong"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_baseline_add_24" />
+
+    <ImageButton
+        android:id="@+id/btnCANCEL"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtndChuong"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/stylebtnxoa"
+        android:scaleType="fitCenter"
+        android:src="@drawable/iconcancel"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tusach"
+        android:icon="@drawable/ic_baseline_storage_24"
+
+        android:title="Tủ Truyện"
+
+
+        />
+    <item
+        android:id="@+id/storage"
+        android:icon="@drawable/ic_baseline_storefront_24"
+
+        android:title="Kho Truyện"/>
+        />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/setup"
+
+        android:title="Quản Lý"/>
+
+</menu>
